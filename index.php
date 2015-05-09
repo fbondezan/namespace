@@ -10,11 +10,11 @@ spl_autoload_register();
 
 ##### NÃO FUNCIONA ######
 
-//$x = new SON\Types\Conta();
+$x = new SON\Types\Conta();
 
 
 
 ##### FUNCIONA ######
 
-require_once ('SON/Types/Conta.php'); 
-$x = new Conta();
+//require_once ('SON/Types/Conta.php'); 
+//$x = new Conta();
